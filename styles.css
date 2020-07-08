@@ -1,0 +1,114 @@
+h1.header {
+    background-color: grey;
+    height: 196pt;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 36pt;
+    padding-bottom: 36pt;
+    font-size: 72pt;
+}
+
+.navigation {
+    background-color: grey;
+    opacity: 0.75;
+    color: black;
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+    font-size: 24pt;
+    height: 48pt;
+    padding-left: 12pt;
+    padding-right: 12pt;
+    text-align: center;
+}
+
+.theme {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.article {
+    height: 800px;
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family: 'code';
+    src: url('VeraMono.ttf') format('truetype');}
+
+.body {
+    background-color: black;
+    font-family: code;
+    font-size: 12px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: turquoise;
+    text-decoration: dashed;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    padding: auto;
+    margin-top: 144pt;
+}
+
+p.centre {
+    text-align: center;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid black;
+    color: whitesmoke;
+}
+input.submit:hover {
+    background-color: black;
+}
+input.submit:active {
+    background-color: turquoise;
+}
+input.text {
+    color: turquoise;
+}
+input.text:focus{
+    color: black;
+}
+
+
+li.menu {
+    display: inline;
+}
+
+#gradient {
+    background-color: grey;
+    background-image: -moz-linear-gradient(black, grey);
+    background-image: -webkit-linear-gradient(black, grey);
+    background-image: -o-linear-gradient(black, grey);
+}
+
+footer {
+    font-size: 80%;
+    color: whitesmoke;
+}
+
+.centre {
+    text-align: center;
+}
